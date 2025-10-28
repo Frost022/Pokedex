@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import PokemonDetail from "./pages/PokemonDetail";
 
-export default function App() {
+export default function App(){
   return (
     <SearchProvider>
       <div>
@@ -17,4 +17,4 @@ export default function App() {
       </div>
     </SearchProvider>
   );
-}
+};
