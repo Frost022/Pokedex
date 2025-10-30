@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <div style={{display:"flex", alignItems:"center", gap:12}}>
-        <Link to="/" className="navbar-brand">PokeDeck</Link>
+        <Link to="/" className="navbar-brand">PokéDex</Link>
         <span style={{color:"#6b7280", fontSize:12}}>— sua Pokédex</span>
       </div>
 

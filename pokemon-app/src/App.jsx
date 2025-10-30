@@ -5,16 +5,16 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import PokemonDetail from "./pages/PokemonDetail";
 
-export default function App(){
+export default function App() {
   return (
     <SearchProvider>
       <div>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/pokemon/:name" element={<PokemonDetail />} />
+          <Route path="/pokemon/:id" element={<PokemonDetail />} />
         </Routes>
       </div>
     </SearchProvider>
   );
-};
+}
